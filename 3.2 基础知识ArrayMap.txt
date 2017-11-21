@@ -1,0 +1,13 @@
+﻿ 0:00	publishLocalService
+
+05:58	ArrayMap
+		mHashes 键值的哈希值
+		mArray  键值对
+
+06:55	K - > Hash -> mHashes(已排序) -> k-v(如果多个hash, 则最后比较k)
+
+12:05   保存k-v
+	a) 已有k-v，则修改v.
+        b) 新保存k-v 可能会出现的情况:
+		* 数组扩容
+		* 插入引起的数据移动
