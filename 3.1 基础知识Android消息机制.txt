@@ -1,0 +1,12 @@
+﻿ 3:26 	休眠与线程唤醒
+ 3:44	epoll机制
+ 6:41	消息的构造与发送。'构造'包含a)信息和b)处理函数。
+ 7:54	Handler ,Looper ,MessageQueue
+11:28   Handler.SendMessager*
+			    AtTime 绝对时间
+			    Delay  相对时间
+13:49   msg.target.dispatchMessage
+16:16	code:
+	1) 创建子线程
+	2）添加消息处理功能
+	3）给Button添加处理函数
